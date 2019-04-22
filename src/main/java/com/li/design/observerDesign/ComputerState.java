@@ -23,6 +23,7 @@ public class ComputerState implements Subject {
         }
     }
 
+
     public void someOneUserComputer() {
         notifyObservers();
     }
