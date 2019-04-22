@@ -50,6 +50,7 @@ public class Solution1 {
     }
 
 
+
     public static void main(String[] args) {
         Solution1 solution1 = new Solution1();
         Thread threadA = new Thread(solution1.new A());
