@@ -7,11 +7,9 @@ public class Singleton1 {
     private Singleton1() {
     }
 
-    public Singleton1 getSingleton1() {
+    public static Singleton1 getSingleton1() {
         return singleton1;
     }
 
-    public static void main(String[] args) {
 
-    }
 }
