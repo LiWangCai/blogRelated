@@ -5,4 +5,5 @@ public class DaoXiaodNoodles implements Noodles {
     public void createABlowOfNoodles() {
         System.out.println("制作一碗刀削面");
     }
+
 }
