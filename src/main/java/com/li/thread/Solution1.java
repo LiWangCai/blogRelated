@@ -2,6 +2,7 @@ package com.li.thread;
 
 //两个线程交替打印1-100
 public class Solution1 {
+
     private static final Object lock = new Object();
     private volatile int index = 1;
 
